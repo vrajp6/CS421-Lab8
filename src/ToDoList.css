@@ -1,0 +1,54 @@
+.todo-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  .task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .edit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .edit-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
