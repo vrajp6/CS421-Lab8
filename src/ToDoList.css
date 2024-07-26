@@ -56,6 +56,16 @@ li {
   align-items: center;
 }
 
+li:hover span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
 .edit-container {
   display: flex;
   justify-content: space-between;

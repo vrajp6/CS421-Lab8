@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './ToDoList.css';
 
 const TodoList = () => {
+  // Define state for tasks and new task input
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
   const [editIndex, setEditIndex] = useState(null);
